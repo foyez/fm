@@ -1,0 +1,31 @@
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.stationWidget {
+  padding: 2rem 0 0;
+  animation: moveInBottom 0.8s ease-in-out;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .stationImg {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    outline: 2px solid aliceblue;
+  }
+
+  .volumeBtn:hover {
+    filter: drop-shadow(2px 4px 6px black);
+  }
+}

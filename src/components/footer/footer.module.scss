@@ -1,0 +1,20 @@
+.footer {
+  height: 10rem;
+  border-top: 1px solid #4c4f5b;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .footerTitle {
+    color: #edae60;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .stationName {
+    font-size: 3.5rem;
+  }
+}
